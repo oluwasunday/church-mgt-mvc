@@ -24,5 +24,5 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 
-ENTRYPOINT ["dotnet", "church-mgt-mvc.dll"]
-# CMD ASPNETCORE_URLS=http://*:$PORT dotnet church-mgt-mvc.dll
+# ENTRYPOINT ["dotnet", "church-mgt-mvc.dll"]
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet church-mgt-mvc.dll
