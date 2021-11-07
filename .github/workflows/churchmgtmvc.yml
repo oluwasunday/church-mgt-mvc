@@ -10,7 +10,7 @@ jobs:
     - name: Church Mgt App Mvc
       env:
         HEROKU_API_KEY: a5c86878-47c0-4e76-a467-59b60de9dd74
-        APP_NAME: churchmgtapp
+        APP_NAME: rccgsolidrockogun5
       run: |
         docker build -t rccgsolidrockogun5 .
         docker tag churchmgtapp registry.heroku.com
