@@ -13,7 +13,7 @@ jobs:
         APP_NAME: rccgsolidrockogun5
       run: |
         docker build -t rccgsolidrockogun5 .
-        docker tag churchmgtapp registry.heroku.com
+        docker tag rccgsolidrockogun5 registry.heroku.com
         docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
         heroku container:push web -a $APP_NAME
         heroku container:release web -a $APP_NAME
