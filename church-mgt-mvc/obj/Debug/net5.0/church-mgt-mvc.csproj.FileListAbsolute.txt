@@ -365,3 +365,4 @@ C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\obj\Debug
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\obj\Debug\net5.0\ref\church-mgt-mvc.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\obj\Debug\net5.0\church-mgt-mvc.pdb
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\obj\Debug\net5.0\church-mgt-mvc.genruntimeconfig.cache
+C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\obj\Debug\net5.0\Razor\Views\Shared\_Footer.cshtml.g.cs
