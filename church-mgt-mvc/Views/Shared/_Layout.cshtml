@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - church_mgt_mvc</title>
+    <title>@ViewData["Title"] - RCCG SolidRock</title>
     @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
     <link rel="stylesheet" href="~/sites/bootstrap.css" />
     @*<link rel="stylesheet" href="~/css/site.css" />*@
-    <link rel="stylesheet" href="~/sites/css/main.css"  />
+    <link rel="stylesheet" href="~/sites/css/main.css" />
 </head>
 <body>
     <!-- header begin -->
@@ -66,7 +66,7 @@
 
                         <!-- social icons -->
                         <div class="social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/rccgogunprovince5"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-youtube"></i></a>
                         </div>
@@ -92,17 +92,23 @@
 *@
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4 text-center">
                     &copy; Copyiright 2021 - RCCG Solid Rock Ogun 5
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4 social text-center">
+                    <a href="https://www.facebook.com/rccgogunprovince5"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-md-4 text-center">
                     <nav>
                         <ul>
-                            <li><a href="#">Home</a></li>
+                            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                             <li><a href="#">About Us</a></li>
-                            <li><a href="#">Events</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a asp-controller="Events" asp-action="Index">Events</a></li>
+                            <li><a asp-controller="Media" asp-action="Index">Media</a></li>
+                            <li><a asp-controller="Gallery" asp-action="Index">Gallery</a></li>
+                            <li><a asp-controller="ContactUs" asp-action="Index">Contact Us</a></li>
                         </ul>
                     </nav>
                 </div>
