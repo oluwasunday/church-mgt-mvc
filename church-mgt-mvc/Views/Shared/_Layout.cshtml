@@ -40,25 +40,25 @@
                                 </li>
                                 <li><a href="#" >About Us</a>
                                     <ul>
-                                        <li><a href="sermons.html">Our History</a></li>
-                                        <li><a href="sermon-single.html">Mission and Vision</a></li>
-                                        <li><a href="sermon-single.html">Our Beliefs</a></li>
+                                        <li><a asp-controller="AboutUs" asp-action="History">Our History</a></li>
+                                        <li><a asp-controller="AboutUs" asp-action="MissionAndVision">Mission and Vision</a></li>
+                                        <li><a asp-controller="AboutUs" asp-action="OurBeliefs">Our Beliefs</a></li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="events.html">Events</a>
+                                    <a asp-controller="Events" asp-action="Index">Events</a>
                                 </li>
                                 <li>
-                                    <a href="media.html">Media</a>
+                                    <a asp-controller="Media" asp-action="Index">Media</a>
                                 </li>
                                 <li>
-                                    <a href="gallery.html">Gallery</a>
+                                    <a asp-controller="Gallery" asp-action="Index">Gallery</a>
                                 </li>
                                 <li>
                                     <a asp-action="Index" asp-controller="ContactUs">Contact</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-warning btn-sm font-weight-bold">Online Giving</a>
+                                    <a asp-controller="OnlineGiving" asp-action="Index" class="btn btn-warning btn-sm font-weight-bold">Online Giving</a>
                                 </li>
                             </ul>
                         </div>
