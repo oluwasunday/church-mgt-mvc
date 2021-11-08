@@ -1,7 +1,5 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Online Giving";
 }
 
 
@@ -20,24 +18,23 @@
 </section>
 <!-- subheader close -->
 
-
 <!-- content begin -->
 <div id="content">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 align-content-center">
+            <div class="col-md-6 align-content-center">
                 <div id="contact-form-wrapper">
                     <div class="contact_form_holder">
                         
                         <h3>SURELY, YOU'LL BE BLESSED AND YOU WILL NOT LABOUR IN VAIN IN JESUS NAME</h3>
                         <form>
                           <fieldset>
-                            
 
                             <div class="form-group">
                               <label for="exampleSelect1" class="form-label mt-4">Payment Type</label>
                               <select class="form-select" id="exampleSelect1">
                                 <option selected>Thanksgiving Offering</option>
+                                <option>General Offering</option>
                                 <option>Tithe</option>
                                 <option>Love Offering</option>
                                 <option>First Fruit</option>
@@ -49,31 +46,58 @@
 
                             <div class="form-group has-danger">
                               <label for="name" class="form-label mt-4">Name</label>
-                              <input type="text" class="form-control" id="name" placeholder="Full name">
+                              <input type="text" class="form-control" id="name" placeholder="Full name" required>
                             </div>
 
                             <div class="form-group">
                               <label for="email" class="form-label mt-4">Email address</label>
-                              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
                               <p class="pt-0">We'll never share your email with anyone else.</p>
                             </div>
 
                             <div class="form-group">
                               <label for="amount" class="form-label mt-4">Amount</label>
-                              <input type="number" class="form-control" id="amount" placeholder="Amount">
+                              <input type="number" class="form-control" id="amount" placeholder="Amount" required>
                             </div>
 
                             <button type="submit" class="btn btn-primary">Submit</button>
                           </fieldset>
                         </form>
-
-
                     </div>
                 </div>
             </div>
 
             
+            <div class="col-md-6 text-center">
+                <div class="contact-info">
 
+                    <div class="social-icons">
+                        <h2>OTHER OPTIONS</h2>
+                    </div>
+
+                    <div class="divider-line">Bank Transfer</div>
+
+                    <span class="title">Tithe & Offering</span>
+                    Bank: Stanbic IBTC <br />
+                    Account Name: RCCG Solid Rock Parish <br />
+                    Account Number: 0007554916 <br />
+						
+				<div class="divider-line"></div>
+
+                    @*<span class="title">Church Time:</span>*@
+                    <p>&nbsp;</p>
+
+                    @*<div class="divider-line"></div>*@
+
+                    <span class="title">Church Project</span>
+                    Bank: Stanbic IBTC <br />
+                    Account Name: RCCG Solid Rock Parish <br />
+                    Account Number: 0007554916 <br />
+						
+                </div>
+
+
+            </div>
 
             </div>
         </div>
