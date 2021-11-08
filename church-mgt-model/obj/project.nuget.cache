@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "EtF+53oSh7EBvQhF3kyBElQaZcJ1lNOQoMaKhXlnHIbpffp+uTqBeonFJrob58ypCC8DbtBRjuzOGzsgux2/Gw==",
+  "dgSpecHash": "UUdQUBlRNscEiU9sh1CQ1krIIAhCjWD5+7h7srTV3HIfpexuGdz82zk1n1sLpJRbS2KF4MVSHrxLvD3ZprGDvA==",
   "success": true,
   "projectFilePath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\church-mgt-mvc\\church-mgt-model\\church-mgt-model.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\hp\\.nuget\\packages\\dataannotationsextensions\\5.0.1.27\\dataannotationsextensions.5.0.1.27.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.11\\microsoft.aspnetcore.mvc.razor.extensions.5.0.11.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.11\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.11.nupkg.sha512",
@@ -105,16 +104,5 @@
     "C:\\Users\\hp\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'DataAnnotationsExtensions 5.0.1.27' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
-      "libraryId": "DataAnnotationsExtensions",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }

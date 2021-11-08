@@ -41,10 +41,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "DataAnnotationsExtensions": {
-              "target": "Package",
-              "version": "[5.0.1.27, )"
-            },
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
               "version": "[5.2.7, )"
