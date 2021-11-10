@@ -41,7 +41,6 @@ C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Connections.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
-C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Identity.dll
@@ -122,7 +121,6 @@ C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
-C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
@@ -181,7 +179,6 @@ C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\System.IO.FileSystem.Watcher.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\System.IO.IsolatedStorage.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\System.IO.MemoryMappedFiles.dll
-C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\System.IO.Pipelines.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\System.IO.Pipes.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\System.IO.UnmanagedMemoryStream.dll
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\refs\System.Linq.dll
@@ -417,3 +414,12 @@ C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\obj\Debug
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\obj\Debug\net5.0\Razor\Views\Events\Index.cshtml.g.cs
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\obj\Debug\net5.0\Razor\Views\Gallery\Index.cshtml.g.cs
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\obj\Debug\net5.0\Razor\Views\Media\Index.cshtml.g.cs
+C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\church-mgt-model.dll
+C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\church-mgt-services.dll
+C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\church-mgt-model.pdb
+C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\church-mgt-services.pdb
+C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\obj\Debug\net5.0\Razor\Views\OnlineGiving\SuccessPayment.cshtml.g.cs
