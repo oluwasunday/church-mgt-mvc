@@ -11,6 +11,7 @@ namespace HotelMgt.API.Extensions
 
             // Add Repository Injections Here 
             services.AddScoped<IPaymentService, PaymentService>();
+            services.AddScoped<IContactUsService, ContactUsService>();
 
         }
     }
