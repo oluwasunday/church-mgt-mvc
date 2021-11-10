@@ -18,4 +18,9 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.14.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\church-mgt-model\church-mgt-model.csproj" />
+    <ProjectReference Include="..\church-mgt-services\church-mgt-services.csproj" />
+  </ItemGroup>
+
 </Project>

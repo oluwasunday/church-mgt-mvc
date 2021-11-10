@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ee24a2bc-0b06-41ca-a1a8-6639da8c10fe": {
+      "ProjectGuid": "ee24a2bc-0b06-41ca-a1a8-6639da8c10fe",
+      "DisplayName": "church-mgt-mvc",
+      "ColorIndex": 0
+    },
+    "c802658d-9af9-49ce-8fc8-a752c119f33f": {
+      "ProjectGuid": "c802658d-9af9-49ce-8fc8-a752c119f33f",
+      "DisplayName": "church-mgt-model",
+      "ColorIndex": 1
+    },
+    "74daef38-382d-4bef-9eb1-f55d5e10ff19": {
+      "ProjectGuid": "74daef38-382d-4bef-9eb1-f55d5e10ff19",
+      "DisplayName": "church-mgt-services",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
