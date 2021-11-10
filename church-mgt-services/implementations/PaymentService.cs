@@ -21,7 +21,7 @@ namespace church_mgt_services.implementations
         {
             _env = env;
             _configuration = configuration;
-            _baseUrl = _env.IsProduction() ? _configuration["HerokuUrl"] : _configuration["BaseUrl"];
+            _baseUrl = env.IsProduction() ? _configuration["HerokuUrl"] : _configuration["BaseUrl"];
         }
 
 
