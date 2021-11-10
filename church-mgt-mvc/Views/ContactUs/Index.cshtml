@@ -35,25 +35,29 @@
                     <div class="col-md-6">
                         <div id="contact-form-wrapper">
                             <div class="contact_form_holder">
-                                <form id="contact" class="row" name="form1" method="post" action="#">
+                                <form asp-action="Index" id="contact" class="row" name="form1" method="post">
 
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your name" />
+                                    <input type="text" class="form-control" name="Name" id="name" placeholder="Your name" />
 
                                     <div id="error_email" class="error">Please check your email</div>
-                                    <input type="text" class="form-control" name="email" id="email" placeholder="Your email" />
+                                    <input type="text" class="form-control" name="Email" id="email" placeholder="Your email" />
 
                                     <div id="error_message" class="error">Please check your message</div>
-                                    <textarea cols="10" rows="10" name="message" id="message" class="form-control" placeholder="Your message"></textarea>
+                                    <textarea cols="10" rows="10" name="Message" id="message" class="form-control" placeholder="Your message"></textarea>
 
-                                    <div id="mail_success" class="success">Thank you. Your message has been sent.</div>
-                                    <div id="mail_failed" class="error">Error, email not sent</div>
+                                    @if(@ViewBag.Info != null){
+                                        <h1 style="color:green;">@ViewBag.Info</h1>
+                                        <div id="mail_success" class="success">Thank you. Your message has been sent.</div>
+                                    }
+                                    else{
+                                        <h1>@ViewBag.Error</h1>
+                                        <div id="mail_failed" class="error">Error, email not sent</div>
+                                    }
+                                    
 
-                                    <p id="btnsubmit">
+                                    @*<p id="btnsubmit">*@
                                         <input type="submit" id="send" value="Send" class="btn btn-primary" />
-                                    </p>
-
-
-
+                                    @*</p>*@
                                 </form>
                             </div>
                         </div>
