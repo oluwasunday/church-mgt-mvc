@@ -424,3 +424,6 @@ C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\bin\Debug\net5.0\church-mgt-services.pdb
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\obj\Debug\net5.0\Razor\Views\OnlineGiving\SuccessPayment.cshtml.g.cs
 C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\obj\Debug\net5.0\Razor\Views\Testimony\Index.cshtml.g.cs
+C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\obj\Debug\net5.0\Razor\Views\About\OurHistory.cshtml.g.cs
+C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\obj\Debug\net5.0\Razor\Views\About\MissionAndVision.cshtml.g.cs
+C:\Users\hp\OneDrive\Documents\Portfolio\church-mgt-mvc\church-mgt-mvc\obj\Debug\net5.0\Razor\Views\About\OurBeliefs.cshtml.g.cs
