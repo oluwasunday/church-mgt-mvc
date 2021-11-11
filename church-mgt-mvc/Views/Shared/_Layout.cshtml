@@ -4,9 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - RCCG SolidRock</title>
-    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
     <link rel="stylesheet" href="~/sites/bootstrap.css" />
-    @*<link rel="stylesheet" href="~/css/site.css" />*@
     <link rel="stylesheet" href="~/sites/css/main.css" />
 </head>
 <body>
@@ -33,7 +31,7 @@
                     <div class="col-md-9">
 
                         <!-- mainmenu begin -->
-                        <div id="mainmenu-container">
+                        <div id="mainmenu-container" class="float-right">
                             <ul id="mainmenu">
                                 <li>
                                     <a asp-controller="Home" asp-action="Index">Home</a>
@@ -45,15 +43,15 @@
                                         <li><a asp-controller="AboutUs" asp-action="OurBeliefs">Our Beliefs</a></li>
                                     </ul>
                                 </li>
-                                <li>
+                                @*<li>
                                     <a asp-controller="Events" asp-action="Index">Events</a>
-                                </li>
+                                </li>*@
                                 <li>
                                     <a asp-controller="Media" asp-action="Index">Media</a>
                                 </li>
-                                <li>
+                               @* <li>
                                     <a asp-controller="Gallery" asp-action="Index">Gallery</a>
-                                </li>
+                                </li>*@
                                 <li>
                                     <a asp-action="Index" asp-controller="ContactUs">Contact</a>
                                 </li>
@@ -87,18 +85,16 @@
     @*</div>*@
 
     <footer class="border-top footer text-muted">
-        @*<div class="container">
-            &copy; 2021 - rccg solidrock ogun 5 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-*@
+
         <div class="container">
             <div class="row">
                 <div class="col-md-4 text-center">
                     &copy; Copyiright 2021 - RCCG Solid Rock Ogun 5
                 </div>
                 <div class="col-md-4 social text-center">
-                    <a href="https://www.facebook.com/rccgogunprovince5"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/rccgogunprovince5" class="m-2"><i class="fa fa-facebook"></i></a>
+                    <a href="#" style="margin-left:10px; margin-right:10px"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="m-2"><i class="fa fa-youtube"></i></a>
                 </div>
                 <div class="col-md-4 text-center">
                     <nav>
@@ -114,14 +110,8 @@
                 </div>
             </div>
         </div>
-        @*</div>*@
+
     </footer>
-    @*<script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>*@
-
-
-
 
     <!-- LOAD JS FILES -->
     <script src="~/sites/js/jquery.min.js"></script>
