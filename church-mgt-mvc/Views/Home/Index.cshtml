@@ -14,7 +14,7 @@
                     <ul>
                         <li data-transition="fade" data-slotamount="10" data-masterspeed="1500">
                             <!--  BACKGROUND IMAGE -->
-                            <img src="https://res.cloudinary.com/dkoncept/image/upload/v1636374195/ChurchMgt/rccg-solid-rock/rccg-solidrock-banner2_fuc2hc.jpg" alt="">
+                            <img class="img-fluid" style="margin: 0px auto; object-fit: cover;" src="https://res.cloudinary.com/dkoncept/image/upload/v1636374195/ChurchMgt/rccg-solid-rock/rccg-solidrock-banner2_fuc2hc.jpg" alt="">
                             @*<img src="~/sites/img-rev-slider/bg-1.jpg" alt="">*@
                             <div class="tp-caption border-v lft"
                                 data-x="540"
@@ -189,7 +189,9 @@
                                     <a href="#">
                                         <h3>Digging Deep</h3>
                                     </a>
-                                    <span class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                                    <span class="desc">
+                                        Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth. 
+                                        But shun profane and vain babblings: for they will increase unto more ungodliness.<br /> II Timothy 2:15-16
                                     </span>
                                 </div>
                                 <img src="https://res.cloudinary.com/dkoncept/image/upload/v1636369919/ChurchMgt/rccg-solid-rock/diggin-geep_xkivht.png" alt="">
@@ -201,7 +203,8 @@
                                     <a href="#">
                                         <h3>Faith Clinic</h3>
                                     </a>
-                                    <span class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                                    <span class="desc">Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much. 
+                                        <br />James 5:16
                                     </span>
                                 </div>
                                 <img src="https://res.cloudinary.com/dkoncept/image/upload/v1636369919/ChurchMgt/rccg-solid-rock/faith_clinic_l4ulic.jpg" alt="">
@@ -213,13 +216,14 @@
                                     <a href="#">
                                         <h3>Glorious Worship</h3>
                                     </a>
-                                    <span class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                                    <span class="desc">Worship the Lord your God, and His blessing will be on your food and water. I will take away sickness from among you.
+                                        <br />Exodus 23:25
                                     </span>
                                 </div>
                                 <img src="https://res.cloudinary.com/dkoncept/image/upload/v1636369919/ChurchMgt/rccg-solid-rock/sunday_worship_erdwmd.jpg" alt="">
                             </div>
 
-                            <div class="item">
+                            @*<div class="item">
                                 <div class="overlay">
                                     <span class="time">February 26, 2017</span>
                                     <a href="#">
@@ -229,9 +233,9 @@
                                     </span>
                                 </div>
                                 <img src="~/sites/img/events/pic%20(4).jpg" alt="">
-                            </div>
+                            </div>*@
 
-                            <div class="item">
+                            @*<div class="item">
                                 <div class="overlay">
                                     <span class="time">March 1, 2017</span>
                                     <a href="#">
@@ -241,9 +245,9 @@
                                     </span>
                                 </div>
                                 <img src="~/sites/img/events/pic%20(5).jpg" alt="">
-                            </div>
+                            </div>*@
 
-                            <div class="item">
+                            @*<div class="item">
                                 <div class="overlay">
                                     <span class="time">March 10, 2017</span>
                                     <a href="#">
@@ -253,7 +257,7 @@
                                     </span>
                                 </div>
                                 <img src="~/sites/img/events/pic%20(6).jpg" alt="">
-                            </div>
+                            </div>*@
 
                         </div>
                     </div>
@@ -267,13 +271,18 @@
             <section id="countdown-container" data-speed="5" data-type="background">
                 <div class="container">
                     <div class="row text-center">
-                        <div class="col-md-6 wow fadeInLeft text-right">
+                        <div class="col-md-4 col-sm-12 wow fadeInLeft m-auto">
                             
-                            <div><a class="btn btn-big btn-primary">WATCH LIVE</a></div>
+                            <div ><a class="btn btn-big  btn-warning ">WATCH LIVE</a></div>
                         </div>
 
-                        <div class="col-md-6 wow fadeInRight text-left" data-wow-delay=".25s">
-                            <div><a asp-controller="OnlineGiving" asp-action="Index" class="btn btn-big btn-warning">GIVE ONLINE</a></div>
+                        <div class="col-md-4 col-sm-12 wow m-auto">
+                            
+                            <div ><a asp-action="Index" asp-controller="Testimony" class="btn btn-big  btn-primary ">TESTIMONY</a></div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-12 wow fadeInRight m-auto" data-wow-delay=".25s">
+                            <div><a asp-controller="OnlineGiving" asp-action="Index" class="btn btn-big btn-warning m-auto">GIVE ONLINE</a></div>
                         </div>
                     </div>
                 </div>
@@ -393,15 +402,20 @@
                     <div class="row">
                         <div class="col-md-6 wow fadeInLeft" data-wow-delay=".5s">
                             <h1>Pastor's Message</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <p style="font-size:16px">
+                                When God speaks, it is done. When he says Glory Ahead, it is settled. That is the glory around the corner for you. I assure you in the name of the one who is called the King of Glory and Source of all that is truly glorious that you will surely be blessed.
+                            </p><br/>
 
-                            <p>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.						
+                            <p style="font-size:16px">
+                                When God showed little of His glory to Moses, his face shone so much that the people were afraid to come near him. He had to wear a veil to cover his face (Exodus 34:29-35).
+                            </p><br/>
+                            <p style="font-size:16px">
+                                Moses’ life was never the same again. When also the cloud descended, the glory of the Lord filled the tabernacle. When the cloud was taken up from the tabernacle, the children went onward in all their journey (Exodus 40:34-36). By the power in the name of Jesus, you shall move forward in Jesus’ name.
                             </p>
 
-                            <p class="wow fadeIn" data-wow-delay='1.5s'>
+                            @*<p class="wow fadeIn" data-wow-delay='1.5s'>
                                 <img src="~/sites/img/misc/pic-5.png" alt="">
-                            </p>
+                            </p>*@
 
                         </div>
 
@@ -414,7 +428,7 @@
             <!-- section close -->
 
             <!-- section begin -->
-            <section id="page-blog" class="no-padding">
+            @*<section id="page-blog" class="no-padding">
 
                 <div class="fullwidth">
                     <div class="one-fourth text-center">
@@ -485,11 +499,11 @@
                     </div>
                 </div>
                 <div class="clearfix"></div>
-            </section>
+            </section>*@
             <!-- section close -->
 
-            <!-- section begin -->
-            <section id="section-gallery">
+            <!-- gallery section begin -->
+            @*<section id="section-gallery">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 text-center">
@@ -522,16 +536,14 @@
                                 <a href="~/sites/img/gallery/pic%20(5).jpg" data-gal="prettyPhoto[galllery]"><span class="overlay"></span></a>
                                 <img src="~/sites/img/gallery/pic%20(5).jpg" alt="">
                             </div>
-
-
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>*@
             <!-- section close -->
 
             <!-- section begin -->
-            <section id="section-testimonial">
+            @*<section id="section-testimonial">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
@@ -559,7 +571,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>*@
             <!-- section close -->
 
         </div>
