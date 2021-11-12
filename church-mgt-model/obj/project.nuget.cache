@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iqlg1GSDK03HIRqO+TCxb2B2ewI6AYdCbZBzHenbsL0UaB/8oAxKdBP/hwHw3WacpwySq0p93kqpmepDMRUXvA==",
+  "dgSpecHash": "hotk+03T2sR9ISsUzlWWuSfcCChWFSpUalVWgcUu57vNlxcvqenYKW11rcypXt6oU9MQDDY6jdhlCRBjgmZ2qg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\church-mgt-mvc\\church-mgt-model\\church-mgt-model.csproj",
+  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\_completed\\church-mgt-mvc\\church-mgt-model\\church-mgt-model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.11\\microsoft.aspnetcore.mvc.razor.extensions.5.0.11.nupkg.sha512",

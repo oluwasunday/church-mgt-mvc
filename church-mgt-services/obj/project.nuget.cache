@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U9dG2FUmEJy8O4bzEXQwnSpKExQs7vNeK/alGd61nNOM+Uh+OOif4JWq1S5QuZtyAxITzXXsoBD0UctvSaNh5w==",
+  "dgSpecHash": "ifTWepTOipPbhTryobB0C/Ju2tlZ9rz+Tv7j1GAdGma4v84F8RJclsFBadZ/ztjbxJW2BYUNW20riTbD7SH6bg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\church-mgt-mvc\\church-mgt-services\\church-mgt-services.csproj",
+  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\_completed\\church-mgt-mvc\\church-mgt-services\\church-mgt-services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

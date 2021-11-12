@@ -5955,11 +5955,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\church-mgt-mvc\\church-mgt-model\\church-mgt-model.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\_completed\\church-mgt-mvc\\church-mgt-model\\church-mgt-model.csproj",
       "projectName": "church-mgt-model",
-      "projectPath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\church-mgt-mvc\\church-mgt-model\\church-mgt-model.csproj",
+      "projectPath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\_completed\\church-mgt-mvc\\church-mgt-model\\church-mgt-model.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\church-mgt-mvc\\church-mgt-model\\obj\\",
+      "outputPath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\_completed\\church-mgt-mvc\\church-mgt-model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
