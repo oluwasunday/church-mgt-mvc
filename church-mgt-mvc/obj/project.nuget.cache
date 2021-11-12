@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hBfG8qTRA6ldaIPRzZm9YHo/fsr1GsEPSn27H7+0nFWVq4a2v3NsKHoR9VuDM0bkzuc7YqDZzcfILDJLxN4QEQ==",
+  "dgSpecHash": "xuVpXun5iS+8vN1W55xBn5StNtD5zC7j35OKg9jsMsA5Ui1QzTm6MOVcu+RLcFmBf4/0HMPdf0faVXsLsDjV6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\church-mgt-mvc\\church-mgt-mvc\\church-mgt-mvc.csproj",
+  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\_completed\\church-mgt-mvc\\church-mgt-mvc\\church-mgt-mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",

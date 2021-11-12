@@ -7804,11 +7804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\church-mgt-mvc\\church-mgt-mvc\\church-mgt-mvc.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\_completed\\church-mgt-mvc\\church-mgt-mvc\\church-mgt-mvc.csproj",
       "projectName": "church-mgt-mvc",
-      "projectPath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\church-mgt-mvc\\church-mgt-mvc\\church-mgt-mvc.csproj",
+      "projectPath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\_completed\\church-mgt-mvc\\church-mgt-mvc\\church-mgt-mvc.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\church-mgt-mvc\\church-mgt-mvc\\obj\\",
+      "outputPath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\_completed\\church-mgt-mvc\\church-mgt-mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7826,11 +7826,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\church-mgt-mvc\\church-mgt-model\\church-mgt-model.csproj": {
-              "projectPath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\church-mgt-mvc\\church-mgt-model\\church-mgt-model.csproj"
+            "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\_completed\\church-mgt-mvc\\church-mgt-model\\church-mgt-model.csproj": {
+              "projectPath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\_completed\\church-mgt-mvc\\church-mgt-model\\church-mgt-model.csproj"
             },
-            "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\church-mgt-mvc\\church-mgt-services\\church-mgt-services.csproj": {
-              "projectPath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\church-mgt-mvc\\church-mgt-services\\church-mgt-services.csproj"
+            "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\_completed\\church-mgt-mvc\\church-mgt-services\\church-mgt-services.csproj": {
+              "projectPath": "C:\\Users\\hp\\OneDrive\\Documents\\Portfolio\\_completed\\church-mgt-mvc\\church-mgt-services\\church-mgt-services.csproj"
             }
           }
         }
